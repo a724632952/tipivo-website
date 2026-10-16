@@ -29,7 +29,8 @@ node scripts/build.mjs
 - `icon`、`screenshots`：相对仓库根目录的本地图片路径；每张图片包含 `src` 和 `alt`。
 - `appStoreUrl`：真实 App Store HTTPS 地址；为空时不显示下载按钮。
 - `apps[].supportEmail`：产品专用邮箱；为空时转到网站 Support。
-- `websitePrivacy`、`websiteTerms`、`apps[].privacy`、`apps[].terms`：正式文档的相对文件路径；`null` 时不显示链接。
+- `logo`：工作室 Logo 的本地图片路径，用于全站品牌区域和网站图标。
+- 四份法律文档在 `legal-content/` 中独立维护，详见下文。
 - `siteUrl`：正式网站根地址，必须以 `/` 结尾，用于 canonical、sitemap 和 robots。
 
 当前产品名 PhotoSpace 和功能介绍取自用户提供的 App Store 宣传图，正式发布前请确认产品名称。三张图片标注为宣传图，未将其作为真实界面截图宣称。
@@ -41,9 +42,20 @@ node scripts/build.mjs
 - 网站预留：`privacy.html`、`terms.html`
 - 产品预留：`apps/<slug>/privacy.html`、`apps/<slug>/terms.html`
 
-目前这些页面只明确说明“未发布”，设有 `noindex, nofollow`，没有正式法律正文，不出现在站内导航或 sitemap 中。它们不是有效隐私政策或服务条款，不应提交为 App Store 的正式法律文档。
+全站 Footer 的 **Privacy Policy**、**Terms of Use** 分别指向官网的 `privacy.html`、`terms.html`。PhotoSpace 详情页的法律链接指向 `apps/photospace/privacy.html`、`apps/photospace/terms.html`。
 
-收到正式正文后，建议新建独立静态文档（例如 `legal/website-privacy.html`、`apps/photospace/privacy-policy.html`），使用正确的相对资源路径，并把对应配置指向这些文件。保留缺失项为 `null`，不要填入预留页面路径。生成器只生成缺失文档的预留页面；不会生成正式法律正文。维护正式法律文档时也需维护其 SEO 信息；配置中的正式文档路径会自动加入 sitemap。
+四份正文分别位于：
+
+- `legal-content/privacy.json`：公司官网隐私政策。
+- `legal-content/terms.json`：公司官网使用条款。
+- `legal-content/apps--photospace--privacy.json`：PhotoSpace 隐私政策。
+- `legal-content/apps--photospace--terms.json`：PhotoSpace 服务条款。
+
+当前 `published: false`、`sections: []`，网页明确标记“未发布”，没有正式法律正文，并带有 `noindex, nofollow`，不进入 sitemap。这些链接是待完善文档入口，不应作为正式政策提交到 App Store。
+
+收到用户提供的正式正文后，将对应 JSON 的 `sections` 填为章节数组，每章包含 `heading`（标题，可为空）和 `paragraphs`（正文字符串数组）。按正文填写 `updatedAt`（可为空），审核后设置 `published: true`，运行 `node scripts/build.mjs`。生成器会在相同路径输出正文，移除未发布提示及 noindex，并加入 sitemap。正文作为纯文本转义输出；不要填 HTML。不得自行编写数据收集、SDK、服务器存储等行为。
+
+新增 App 时会自动创建独立的空文档源文件和预留页面，已有正文不会被生成器覆盖。
 
 ## GitHub Pages 部署
 

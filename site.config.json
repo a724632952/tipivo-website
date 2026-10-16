@@ -5,8 +5,6 @@
   "description": "We create simple, thoughtful apps that make everyday life easier.",
   "siteUrl": "https://a724632952.github.io/tipivo-website/",
   "supportEmail": "",
-  "websitePrivacy": null,
-  "websiteTerms": null,
   "apps": [
     {
       "slug": "photospace",
@@ -16,19 +14,39 @@
       "description": "Browse your iPhone photos from a computer, phone, or tablet browser over your local network.",
       "introduction": "Start local sharing on your iPhone, then open the address in a browser on your local network. Bring your photos to a bigger screen, without a cable or an extra viewing app.",
       "features": [
-        { "title": "A browser is all you need", "description": "View your photos from a computer, phone, or tablet browser. No extra viewing app required.", "symbol": "↗" },
-        { "title": "Made for your local network", "description": "Browse photos directly over your local network, without a cable.", "symbol": "⌁" },
-        { "title": "Your photos stay with you", "description": "Local photo sharing without cloud uploads or an external server.", "symbol": "◇" }
+        {
+          "title": "A browser is all you need",
+          "description": "View your photos from a computer, phone, or tablet browser. No extra viewing app required.",
+          "symbol": "↗"
+        },
+        {
+          "title": "Made for your local network",
+          "description": "Browse photos directly over your local network, without a cable.",
+          "symbol": "⌁"
+        },
+        {
+          "title": "Your photos stay with you",
+          "description": "Local photo sharing without cloud uploads or an external server.",
+          "symbol": "◇"
+        }
       ],
       "screenshots": [
-        { "src": "assets/images/photospace-screen-1.png", "alt": "PhotoSpace promotional artwork showing iPhone photos in a computer browser" },
-        { "src": "assets/images/photospace-screen-2.png", "alt": "PhotoSpace promotional artwork introducing local network photo browsing" },
-        { "src": "assets/images/photospace-screen-3.png", "alt": "PhotoSpace promotional artwork describing local sharing without cloud uploads" }
+        {
+          "src": "assets/images/photospace-screen-1.png",
+          "alt": "PhotoSpace promotional artwork showing iPhone photos in a computer browser"
+        },
+        {
+          "src": "assets/images/photospace-screen-2.png",
+          "alt": "PhotoSpace promotional artwork introducing local network photo browsing"
+        },
+        {
+          "src": "assets/images/photospace-screen-3.png",
+          "alt": "PhotoSpace promotional artwork describing local sharing without cloud uploads"
+        }
       ],
       "appStoreUrl": "",
-      "supportEmail": "",
-      "privacy": null,
-      "terms": null
+      "supportEmail": ""
     }
-  ]
+  ],
+  "logo": "assets/images/tipivo-logo.png"
 }
