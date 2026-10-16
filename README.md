@@ -51,9 +51,9 @@ node scripts/build.mjs
 - `legal-content/apps--photospace--privacy.json`：PhotoSpace 隐私政策。
 - `legal-content/apps--photospace--terms.json`：PhotoSpace 服务条款。
 
-当前 `published: false`、`sections: []`，网页明确标记“未发布”，没有正式法律正文，并带有 `noindex, nofollow`，不进入 sitemap。这些链接是待完善文档入口，不应作为正式政策提交到 App Store。
+PhotoSpace 的隐私政策与使用条款已填入用户提供的英文正文，生效及更新日期为 October 16, 2026，已生成正文页面并加入 sitemap。联系方式中的 `[Developer Name]` 和 `[Support Email]` 仍需替换为实际信息。网站自身的两份文档仍为 `published: false`、`sections: []`，标记“未发布”并带有 `noindex, nofollow`，不进入 sitemap。
 
-收到用户提供的正式正文后，将对应 JSON 的 `sections` 填为章节数组，每章包含 `heading`（标题，可为空）和 `paragraphs`（正文字符串数组）。按正文填写 `updatedAt`（可为空），审核后设置 `published: true`，运行 `node scripts/build.mjs`。生成器会在相同路径输出正文，移除未发布提示及 noindex，并加入 sitemap。正文作为纯文本转义输出；不要填 HTML。不得自行编写数据收集、SDK、服务器存储等行为。
+收到用户提供的正式正文后，将对应 JSON 的 `sections` 填为章节数组，每章包含 `heading`（标题，可为空）和 `paragraphs`（正文字符串数组）。按正文填写 `effectiveAt` 和 `updatedAt`（均可为空），审核后设置 `published: true`，运行 `node scripts/build.mjs`。生成器会在相同路径输出正文，移除未发布提示及 noindex，并加入 sitemap。正文作为纯文本转义输出；不要填 HTML。不得自行编写数据收集、SDK、服务器存储等行为。
 
 新增 App 时会自动创建独立的空文档源文件和预留页面，已有正文不会被生成器覆盖。
 
@@ -90,4 +90,5 @@ robots.txt             搜索引擎抓取入口
 - 确认 PhotoSpace 正式名称和功能文案。
 - App Store 地址（如已上架）。
 - 支持邮箱。
-- 网站隐私政策、网站使用条款、App 隐私政策及 App 服务条款的正式正文。
+- 网站隐私政策、网站使用条款的正式正文。
+- PhotoSpace 协议中的开发者名称与支持邮箱。

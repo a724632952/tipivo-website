@@ -1,5 +1,147 @@
 {
-  "published": false,
-  "updatedAt": "",
-  "sections": []
+  "published": true,
+  "effectiveAt": "October 16, 2026",
+  "updatedAt": "October 16, 2026",
+  "sections": [
+    {
+      "heading": "1. Introduction",
+      "paragraphs": [
+        "PhotoSpace (\"the App\") respects your privacy.",
+        "This Privacy Policy explains how PhotoSpace accesses, processes, and handles information when you use the App on supported Apple devices.",
+        "PhotoSpace allows users to browse photos and videos stored on an iPhone or Mac through a web browser over a local network.",
+        "PhotoSpace is designed to operate without uploading your personal media to developer-operated cloud servers."
+      ]
+    },
+    {
+      "heading": "2. Photos and Videos",
+      "paragraphs": []
+    },
+    {
+      "heading": "2.1 Photo Library Access on iPhone",
+      "paragraphs": [
+        "PhotoSpace requests permission to access your photo library to provide its core functionality.",
+        "With your permission, PhotoSpace can:",
+        "- Access photos and videos authorized by you.\n- Display available photo albums.\n- Generate thumbnails and media previews.\n- Make photos and videos available through a local web browser.\n- Allow original media files to be accessed or downloaded.",
+        "PhotoSpace only accesses media within the permissions granted by your device's operating system.",
+        "Your photos and videos are not uploaded to servers operated by the developer of PhotoSpace.",
+        "Original media files remain in your photo library unless you modify or delete them independently."
+      ]
+    },
+    {
+      "heading": "2.2 File Access on Mac",
+      "paragraphs": [
+        "On macOS, PhotoSpace allows you to select folders containing photos and videos.",
+        "The App accesses the folders you explicitly authorize.",
+        "This access is used to identify supported media files and make them available through the local sharing service.",
+        "PhotoSpace does not require unrestricted access to your entire computer."
+      ]
+    },
+    {
+      "heading": "2.3 Browser Access",
+      "paragraphs": [
+        "When you start the local sharing service, other devices that can connect to the service may access shared media through a web browser.",
+        "Media is transferred directly between the device running PhotoSpace and the accessing device over the local network.",
+        "Photos and videos downloaded through the browser may be stored on the accessing device.",
+        "PhotoSpace does not control how downloaded files are subsequently stored, copied, or shared."
+      ]
+    },
+    {
+      "heading": "3. Local Network Information",
+      "paragraphs": [
+        "PhotoSpace uses local network communication to provide its core functionality.",
+        "The App may process local network information, such as:",
+        "- Local IP addresses.\n- Network connection details.\n- Local sharing service status.",
+        "This information is used to establish and maintain connections between devices.",
+        "PhotoSpace does not transmit your personal media to developer-operated servers.",
+        "Local network communication may use HTTP, which does not provide encryption by itself.",
+        "We recommend using PhotoSpace only on trusted private networks."
+      ]
+    },
+    {
+      "heading": "4. Data Collection",
+      "paragraphs": [
+        "PhotoSpace does not require users to create an account or provide personal registration information.",
+        "The App does not collect or store your photos and videos on developer-operated servers.",
+        "PhotoSpace does not use your personal media for advertising, profiling, or AI model training.",
+        "PhotoSpace does not include third-party advertising or analytics SDKs.",
+        "Information necessary for the App to function may be processed and stored locally on your device.",
+        "This may include application preferences, selected folder references, and temporary media data."
+      ]
+    },
+    {
+      "heading": "5. Local Data Storage",
+      "paragraphs": [
+        "PhotoSpace may store certain information locally on your device, including:",
+        "- Application preferences.\n- Selected folder references on Mac.\n- Local sharing settings.\n- Temporary thumbnails or cached media.",
+        "This information is used to support the App's functionality.",
+        "PhotoSpace does not maintain a cloud-based copy of your photo library.",
+        "Uninstalling PhotoSpace does not delete your original photos or videos.",
+        "Files previously downloaded to another device are not automatically deleted when you stop sharing or uninstall the App."
+      ]
+    },
+    {
+      "heading": "6. Third-Party Services",
+      "paragraphs": [
+        "PhotoSpace uses Apple operating system technologies to access photos, files, and local network functionality.",
+        "PhotoSpace does not use third-party advertising or analytics services.",
+        "The App does not require third-party cloud storage services for its core functionality.",
+        "Apple's operating system and platform services are subject to Apple's own privacy practices."
+      ]
+    },
+    {
+      "heading": "7. Permissions and User Control",
+      "paragraphs": [
+        "PhotoSpace may request permissions required for its functionality.",
+        "On iPhone, you can grant, limit, or revoke photo library access through your device's system settings.",
+        "On Mac, you can select which folders PhotoSpace is allowed to access.",
+        "You can start or stop the local sharing service within the App.",
+        "Disabling permissions may prevent certain features from working."
+      ]
+    },
+    {
+      "heading": "8. Data Security",
+      "paragraphs": [
+        "PhotoSpace is designed to provide local media access without requiring cloud-based media storage.",
+        "However, local network communication does not guarantee complete security.",
+        "Devices that can reach the local sharing service may be able to request shared content.",
+        "If the service uses HTTP, information transmitted over the local network is not encrypted by HTTP itself.",
+        "We recommend:",
+        "- Using trusted private networks.\n- Avoiding public or untrusted Wi-Fi networks.\n- Stopping the sharing service when it is not needed.\n- Keeping your devices and operating systems updated.",
+        "PhotoSpace cannot guarantee the security of files after they have been downloaded to another device."
+      ]
+    },
+    {
+      "heading": "9. Children's Privacy",
+      "paragraphs": [
+        "PhotoSpace is a general-purpose photo and video browsing utility.",
+        "The App is not specifically directed toward children.",
+        "PhotoSpace does not require users to submit personal registration information.",
+        "Parents and guardians should supervise children's use of devices and shared media."
+      ]
+    },
+    {
+      "heading": "10. Your Privacy Choices",
+      "paragraphs": [
+        "You can control access to your media by:",
+        "- Managing photo library permissions.\n- Selecting or removing shared folders on Mac.\n- Starting or stopping the local sharing service.\n- Removing the App from your device.",
+        "Depending on applicable law, you may have additional rights concerning personal information.",
+        "For privacy-related questions, please contact us using the information below."
+      ]
+    },
+    {
+      "heading": "11. Changes to This Privacy Policy",
+      "paragraphs": [
+        "We may update this Privacy Policy to reflect changes to the App, applicable laws, or our data practices.",
+        "When changes are made, the \"Last Updated\" date will be revised.",
+        "Where required by applicable law, we will provide additional notice or obtain consent."
+      ]
+    },
+    {
+      "heading": "12. Contact",
+      "paragraphs": [
+        "If you have any questions about this Privacy Policy, please contact:",
+        "App: PhotoSpace\nDeveloper: [Developer Name]\nEmail: [Support Email]"
+      ]
+    }
+  ]
 }

@@ -1,5 +1,136 @@
 {
-  "published": false,
-  "updatedAt": "",
-  "sections": []
+  "published": true,
+  "effectiveAt": "October 16, 2026",
+  "updatedAt": "October 16, 2026",
+  "sections": [
+    {
+      "heading": "1. Acceptance of Terms",
+      "paragraphs": [
+        "These Terms of Use (\"Terms\") govern your use of PhotoSpace (\"the App\").",
+        "By downloading, installing, or using PhotoSpace, you agree to these Terms.",
+        "If you do not agree to these Terms, please do not use the App.",
+        "These Terms are between you and the developer of PhotoSpace, not Apple."
+      ]
+    },
+    {
+      "heading": "2. Description of the App",
+      "paragraphs": [
+        "PhotoSpace is a local photo and video browsing utility.",
+        "The App allows users to make photos and videos stored on an iPhone or Mac accessible to other devices through a web browser over a local network.",
+        "Depending on the device, PhotoSpace provides functionality such as:",
+        "- Accessing photos and videos authorized by the user.\n- Selecting media folders on Mac.\n- Starting and stopping a local sharing service.\n- Browsing shared media through a web browser.\n- Viewing photo albums and media thumbnails.\n- Accessing and downloading supported original media files.",
+        "PhotoSpace does not provide cloud photo storage.",
+        "The App is intended for local media access and browsing."
+      ]
+    },
+    {
+      "heading": "3. Device and Network Requirements",
+      "paragraphs": [
+        "PhotoSpace requires compatible Apple devices and operating systems.",
+        "To access shared media, the accessing device must be able to connect to the local sharing service.",
+        "The App's functionality may depend on:",
+        "- Local network connectivity.\n- Device permissions.\n- Operating system restrictions.\n- Device performance.\n- Supported media formats.\n- Network configuration.",
+        "On iPhone, operating system restrictions may limit the availability of the sharing service when the App is in the background or the device is locked.",
+        "PhotoSpace does not guarantee uninterrupted operation or availability."
+      ]
+    },
+    {
+      "heading": "4. Your Photos and Videos",
+      "paragraphs": [
+        "You retain ownership of your photos, videos, and other personal media.",
+        "PhotoSpace does not claim ownership of any media accessed through the App.",
+        "You are responsible for ensuring that you have the necessary rights or permissions to access and share your media.",
+        "You are also responsible for deciding which media or folders to make accessible through PhotoSpace.",
+        "PhotoSpace does not automatically create cloud backups of your media.",
+        "We recommend maintaining independent backups of important photos and videos."
+      ]
+    },
+    {
+      "heading": "5. Local Network Sharing",
+      "paragraphs": [
+        "PhotoSpace allows media to be accessed through a local network.",
+        "When the sharing service is active, devices that can reach the service may be able to access shared content.",
+        "You are responsible for using PhotoSpace on networks that you trust.",
+        "You should avoid enabling media sharing on public or untrusted networks.",
+        "You can stop the local sharing service from within the App.",
+        "PhotoSpace is not responsible for how other devices store or use media downloaded through the local sharing service, except where responsibility cannot legally be excluded."
+      ]
+    },
+    {
+      "heading": "6. Acceptable Use",
+      "paragraphs": [
+        "You agree to use PhotoSpace only for lawful purposes.",
+        "You must not:",
+        "- Use the App to violate applicable laws.\n- Access or share media without the necessary rights or permissions.\n- Use the App to infringe the intellectual property or privacy rights of others.\n- Attempt to interfere with the App's normal operation.\n- Attempt to gain unauthorized access to devices or networks.\n- Use the App to distribute unlawful content.",
+        "You are responsible for your use of the App and the media you choose to share."
+      ]
+    },
+    {
+      "heading": "7. Intellectual Property",
+      "paragraphs": [
+        "PhotoSpace, including its application code, design, branding, graphics, and other original materials, is owned by its developer or applicable licensors.",
+        "You are granted a limited, non-exclusive, non-transferable license to use the App for its intended purposes, subject to these Terms and applicable law.",
+        "This license does not transfer ownership of PhotoSpace or its intellectual property.",
+        "Your own photos and videos remain your property or the property of their respective rights holders."
+      ]
+    },
+    {
+      "heading": "8. Privacy",
+      "paragraphs": [
+        "Your use of PhotoSpace is also governed by our Privacy Policy.",
+        "The Privacy Policy explains how PhotoSpace accesses and processes photos, videos, local network information, and other information necessary for its functionality.",
+        "Please review the Privacy Policy before using the App."
+      ]
+    },
+    {
+      "heading": "9. App Availability and Updates",
+      "paragraphs": [
+        "We may release updates to improve functionality, compatibility, performance, or security.",
+        "We do not guarantee that PhotoSpace will operate without interruption or errors.",
+        "Certain features may become unavailable due to operating system changes, device limitations, network conditions, or other technical factors.",
+        "We may modify or discontinue features where permitted by applicable law."
+      ]
+    },
+    {
+      "heading": "10. Disclaimer of Warranties",
+      "paragraphs": [
+        "To the extent permitted by applicable law, PhotoSpace is provided on an \"as is\" and \"as available\" basis.",
+        "We do not guarantee that the App will be error-free, uninterrupted, or compatible with every device, browser, network, or media format.",
+        "PhotoSpace is not intended to replace a dedicated backup solution.",
+        "You are responsible for maintaining appropriate backups of your important files.",
+        "Nothing in these Terms excludes warranties or rights that cannot legally be excluded."
+      ]
+    },
+    {
+      "heading": "11. Limitation of Liability",
+      "paragraphs": [
+        "To the extent permitted by applicable law, the developer of PhotoSpace is not liable for indirect, incidental, special, or consequential losses arising from the use of, or inability to use, the App.",
+        "This includes losses resulting from network interruptions, device failures, unauthorized local network access, or the handling of media downloaded to another device.",
+        "Nothing in these Terms excludes or limits liability where doing so would be prohibited by applicable law."
+      ]
+    },
+    {
+      "heading": "12. Apple App Store",
+      "paragraphs": [
+        "If you download PhotoSpace through Apple's App Store:",
+        "- These Terms are between you and the developer of PhotoSpace, not Apple.\n- The developer, rather than Apple, is responsible for the App and its content, subject to applicable law.\n- Apple has no obligation to provide maintenance or support services for PhotoSpace.\n- Your use of PhotoSpace must comply with applicable App Store terms and usage rules.\n- Apple and its subsidiaries are third-party beneficiaries of these Terms and may enforce the applicable provisions.",
+        "Nothing in this section limits any rights or remedies available under applicable law."
+      ]
+    },
+    {
+      "heading": "13. Changes to These Terms",
+      "paragraphs": [
+        "We may update these Terms to reflect changes to PhotoSpace, applicable laws, or our business practices.",
+        "When changes are made, the \"Last Updated\" date will be revised.",
+        "Where required by applicable law, we will provide notice or obtain consent before changes take effect."
+      ]
+    },
+    {
+      "heading": "14. Contact",
+      "paragraphs": [
+        "If you have questions about these Terms or PhotoSpace, please contact:",
+        "App: PhotoSpace\nDeveloper: [Developer Name]\nEmail: [Support Email]"
+      ]
+    }
+  ]
 }
